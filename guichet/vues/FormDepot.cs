@@ -70,6 +70,8 @@ namespace guichet.vues
 
         private void btnDeposer_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("ceci est un test");
+
             _controleurDepot.Deposer(numMontant.Value);
         }
 
