@@ -71,8 +71,13 @@ namespace guichet.vues
         private void btnDeposer_Click(object sender, EventArgs e)
         {
             MessageBox.Show("ceci est un test");
+
             MessageBox.Show("ceci est undeuxieme test");
             //test conflit sur la branche
+
+            MessageBox.Show("ceci est undeuxieme test");   //test pour creer un conflit
+            //unautre test pour creer conflit
+
             _controleurDepot.Deposer(numMontant.Value);
         }
 
