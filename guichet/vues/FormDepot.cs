@@ -72,6 +72,7 @@ namespace guichet.vues
         {
             MessageBox.Show("ceci est un test");
             MessageBox.Show("ceci est undeuxieme test");
+            //test conflit sur la branche
             _controleurDepot.Deposer(numMontant.Value);
         }
 
